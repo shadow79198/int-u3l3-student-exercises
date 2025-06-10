@@ -49,7 +49,7 @@ endGameButton.addEventListener("click", function() {
 
 // 5. When update score button is clicked, the counter score becomes "1" instead of 0. 
 
-score.addEventListener("click", function(){
+updateScoreButton.addEventListener("click", function() {
     score.innerHTML = 1;
 });
 
@@ -58,7 +58,7 @@ score.addEventListener("click", function(){
 
 // 6: When clicking the "Grow" button the Mario image gets bigger. Write the whole click handler! 
 
-growButton.addEventListener("click", function(){
+growButton.addEventListener("click", function() {
     mario.style.width = "200px";
 });
 
